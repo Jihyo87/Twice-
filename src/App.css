@@ -1,7 +1,12 @@
-.Cards{
-  width: 200px;
-  height: 200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.cards p {
-  text-align: center;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }

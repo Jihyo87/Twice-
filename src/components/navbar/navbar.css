@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    
+    background-color: #a192d1;
+}
+.navbarlist {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    margin-left: 20%;
+}
+.navbarlist li{
+    font-size: 2.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbarlist li a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.navbarlist li :hover{
+    color: black;
+}

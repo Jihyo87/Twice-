@@ -1,10 +1,33 @@
+@font-face {
+  font-family: 'Stardom-Regular';
+  src: url('../../assets/fonts/Stardom-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/Stardom-Regular.woff') format('woff'),
+       url('../../assets/fonts/Stardom-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+.mainheader{
+  background-color: #a192d1;
+}
+.Headerh1{
+  margin-left: 10%;
+  font-size: 3rem;
+  font-style: bold;
+  font-family: 'Stardom-Regular', serif;
+  font-weight: 800;
+  display: inline-block;
+}
 .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "logo"
-                         "title";
-    font-size: 5rem;
-    color: red; /* Change this to a very noticeable color */
-    background-color: black;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+.header :hover{
+  color:black ;
+  transition: 0.5s;
+}
+.header :hover::first-letter{
+  color:  #E0E0E0;
+  transition: 0.5s;
+  font-weight: 900;
 }

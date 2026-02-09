@@ -1,13 +1,13 @@
-import './header.css';
+import './header.css'
 
-
-
-function Header(){
-    return(
-        <section className='header'>
-            <h1> Twice </h1>
-            <img src='' > </img>
-             </section>
-    );
+function Header() {
+  return (
+    <header className='mainheader' >
+      <a href='' className="header">
+        <h1 className='Headerh1'> TWICE </h1>
+      </a>
+    </header>
+  );
 }
+
 export default Header;

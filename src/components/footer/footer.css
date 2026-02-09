@@ -1,1 +1,56 @@
-import '.header.css'
+.mainfooter{
+    width: 100%;
+    background-color: #0b1026;
+}
+.wrapperfooter{
+    max-width: 1000px;      
+    margin: 0 auto;        
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "socialmedia home homeabout"
+        "copyright copyright copyright";
+    align-items: center;
+    justify-items: center;
+}
+.socialmedia{
+    grid-area: socialmedia;
+    display: flex;
+    font-size: 2.2rem;
+    flex-direction: column;
+    margin-top: 11px;
+}
+.socialmedia a{
+    color: #b8b9d6;
+}
+.socialmedia a:hover{
+    color: #FF5FA2; 
+}
+.homeabout{
+    grid-area: homeabout;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+.homeabout a:hover {
+    color: #FF5FA2; 
+}
+.homeabout a{
+    text-decoration: none;
+    margin-top: 10%;
+    font-size: 2.2rem;
+    color: #b8b9d6;
+}
+.Twicelogo{
+    grid-area: home;
+    margin-top: 30px;
+}
+.copyright{
+    grid-area: copyright;
+    border-top: 2px solid rgba(247, 237, 237, 0.1);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #94A3B8;
+}

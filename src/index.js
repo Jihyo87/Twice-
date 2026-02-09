@@ -1,6 +1,7 @@
-    import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client'; // <-- Important: imports the client rendering tools
 import App from './App.jsx'; // <-- Imports your component
+import './App.css'
 
 // 1. Find the target HTML element (usually an empty <div> with id="root")
 const container = document.getElementById('root');
