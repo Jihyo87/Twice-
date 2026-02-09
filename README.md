@@ -1,4 +1,4 @@
-Twice Web Site.
+Twice Website.
 
 A high-performance, visually stunning React application dedicated to the global K-pop phenomenon, TWICE. This project explores the intersection of modern web development and fan-driven content, featuring dynamic data rendering and custom-tailored UI components.
 
