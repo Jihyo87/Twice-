@@ -1,0 +1,50 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "aboutheader"
+                         "aboutimage"
+                         "aboutinfo";
+    justify-items: center;
+    align-items: center;
+    gap: 90px;
+}
+.aboutheaders{
+    grid-area: aboutheader;
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+  background: linear-gradient(to bottom, #615327, #f8a305);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1));
+}
+.aboutheaders h2{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 6rem;
+}
+.aboutheaders h3{
+    font-size: 3rem;
+    line-height: 1.7;
+    
+}
+.aboutimage{
+    grid-area: aboutimage;
+    max-width: 100%;
+    height: 100vh;
+    border-radius: 20px; 
+    box-shadow: 0 8px 20px rgba(137, 6, 6, 0.2);
+}
+.abouttext{
+    grid-area: aboutinfo;
+    padding: 1%;
+    margin: 50px auto;
+    max-width: 1950px;      
+    font-size: 2rem;    
+    line-height: 2;     
+    color:black; 
+    font-family: sans-serif;
+}

@@ -1,12 +1,14 @@
 import './header.css'
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
-    <header className='mainheader' >
-      <a href='' className="header">
-        <h1 className='Headerh1'> TWICE </h1>
-      </a>
-    </header>
+   <header className='mainheader'>
+            <Link to='/' className="header" >
+                <h1 className='Headerh1'> TWICE </h1>
+            </Link>
+        </header>
   );
 }
 

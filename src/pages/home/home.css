@@ -46,7 +46,7 @@
     display: block;
     width: 100%;
     object-fit: fill;
-    height: 100vh;
+    height: 150vh;
     opacity: 86%;
     z-index: 0;
 }
