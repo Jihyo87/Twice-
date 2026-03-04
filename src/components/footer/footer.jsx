@@ -1,6 +1,6 @@
-import { FaWeibo, FaX } from 'react-icons/fa6';
+import {FaX } from 'react-icons/fa6';
 import './footer.css';
-import { FaFacebook, FaInstagram, FaTwitter, FaTwitch, FaLinkedin, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 import logo from '../../assets/images/Logo_of_TWICE.svg';
 import { Link } from 'react-router-dom';
 
@@ -18,7 +18,6 @@ function Footer() {
         <a href='https://www.youtube.com/c/TWICE/videos'target='_blank' rel='noopener noreferrer'><FaYoutube/> </a>
     </section>
     <section className='Twicelogo'>
-      
       <Link to='/'>
                <img src={logo} alt='twice logo'/>
       </Link> 
@@ -33,8 +32,6 @@ function Footer() {
       <p> ©Vincent Gasatan, 2026</p>
     </section>
     </section>
-
-
    </footer>
   );
 }
