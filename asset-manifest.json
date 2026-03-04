@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Twice/static/css/main.8e8ca59d.css",
+    "main.js": "/Twice/static/js/main.09fc31d3.js",
+    "static/media/twice-feel-special-all-members-uhdpaper.com-4K-5.954.jpg": "/Twice/static/media/twice-feel-special-all-members-uhdpaper.com-4K-5.954.b9797d055a58799033b6.jpg",
+    "static/media/twice-this-is-for-extraordinary-2k-wallpaper-uhdpaper.com-691@5@g.jpg": "/Twice/static/media/twice-this-is-for-extraordinary-2k-wallpaper-uhdpaper.com-691@5@g.cbe2a2fd62b2c2ef0480.jpg",
+    "static/media/nayeonchibi.jpg": "/Twice/static/media/nayeonchibi.6c65fa00fb31d79629bb.jpg",
+    "static/media/dahyun.jpg": "/Twice/static/media/dahyun.61a3c6e77c0d0e081509.jpg",
+    "static/media/chaeyoung.jpg": "/Twice/static/media/chaeyoung.7b7cfd4cb5085590718b.jpg",
+    "static/media/sana.jpg": "/Twice/static/media/sana.38e202fd2f15a0f0328a.jpg",
+    "static/media/momo.jpg": "/Twice/static/media/momo.6502619db78fe63f8828.jpg",
+    "static/media/tzuyu.jpg": "/Twice/static/media/tzuyu.67ee73baadc4e2260472.jpg",
+    "static/media/jihyo.jpg": "/Twice/static/media/jihyo.d04ceb15db6275b1ad6e.jpg",
+    "static/media/jeongyeon.jpg": "/Twice/static/media/jeongyeon.083db263d3f76f6c4b74.jpg",
+    "static/media/mina.jpg": "/Twice/static/media/mina.a8b7dd091672c7f79213.jpg",
+    "static/media/nayeon.jpg": "/Twice/static/media/nayeon.071d509d7cd53c1298e0.jpg",
+    "static/media/chaeyoungchibi.jpg": "/Twice/static/media/chaeyoungchibi.e8c2b03c400b01fe45ca.jpg",
+    "static/media/Stardom-Regular.ttf": "/Twice/static/media/Stardom-Regular.c2d6a716773cd58783d5.ttf",
+    "static/media/jihyochibi.jpg": "/Twice/static/media/jihyochibi.64dc44f0a552793fca8a.jpg",
+    "static/media/minachibi.jpg": "/Twice/static/media/minachibi.1d7769cbc2b0c61b3678.jpg",
+    "static/media/jeongyeonchibi.jpg": "/Twice/static/media/jeongyeonchibi.a287ee3777fbb1757a58.jpg",
+    "static/media/sanachibi.jpg": "/Twice/static/media/sanachibi.5d06e1dba24711f18579.jpg",
+    "static/media/tzuyuchibi.jpg": "/Twice/static/media/tzuyuchibi.e8350e9e8aaba6c4d630.jpg",
+    "static/media/momochibi.jpg": "/Twice/static/media/momochibi.345b943e67b03e9b9436.jpg",
+    "static/media/dahyunchibi.webp": "/Twice/static/media/dahyunchibi.6392ba8e5a459cab0469.webp",
+    "static/media/Stardom-Regular.woff": "/Twice/static/media/Stardom-Regular.c53c0126de3b97cc3eed.woff",
+    "static/media/Stardom-Regular.woff2": "/Twice/static/media/Stardom-Regular.dd912358ae6debfbf01e.woff2",
+    "static/media/Logo_of_TWICE.svg": "/Twice/static/media/Logo_of_TWICE.47b6b29b5d8e5b230cdb58f4d96cff91.svg",
+    "index.html": "/Twice/index.html",
+    "main.8e8ca59d.css.map": "/Twice/static/css/main.8e8ca59d.css.map",
+    "main.09fc31d3.js.map": "/Twice/static/js/main.09fc31d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e8ca59d.css",
+    "static/js/main.09fc31d3.js"
+  ]
+}
