@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Mainlayout from './layouts/mainlayout';
-import Home from './pages/home/home.jsx'
+import Mainlayout from './layouts/mainlayout.jsx';
+import Home from './pages/home/home.jsx';
 import About from './pages/about/about.jsx';
 import Members from './pages/member/members.jsx';
 function App() {
     return(
- <BrowserRouter basename='/Twice'>
+ <BrowserRouter>
       <Routes>
         <Route path="/" element={<Mainlayout />}>
           <Route index element={<Home />} />

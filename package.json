@@ -2,7 +2,7 @@
   "name": "my",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jihyo87.github.io/Twice",
+  "homepage": "https://jihyo87.github.io/Twice/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -27,7 +27,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ]  
   },
   "browserslist": {
     "production": [
