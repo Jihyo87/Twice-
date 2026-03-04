@@ -5,7 +5,7 @@ import About from './pages/about/about.jsx';
 import Members from './pages/member/members.jsx';
 function App() {
     return(
- <BrowserRouter>
+ <BrowserRouter basename='/Twice'>
       <Routes>
         <Route path="/" element={<Mainlayout />}>
           <Route index element={<Home />} />
