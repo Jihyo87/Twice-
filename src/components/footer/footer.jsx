@@ -18,9 +18,10 @@ function Footer() {
         <a href='https://www.youtube.com/c/TWICE/videos'target='_blank' rel='noopener noreferrer'><FaYoutube/> </a>
     </section>
     <section className='Twicelogo'>
-      <a href='' > 
-           <img src={logo} alt='twice logo'/>
-      </a>
+      
+      <Link to='/'>
+               <img src={logo} alt='twice logo'/>
+      </Link> 
     </section>
     <section className='homeabout'>
         <Link to='/'> HOME </Link>
