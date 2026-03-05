@@ -10,12 +10,16 @@ function Members() {
               <img src={members.chibiimage} alt="members chibi" />
             </section>
              <section className="hovercard">
+              <aside className="hoveremoji">
+                  <h2> {members.stagename} </h2>
+`                 <h3> {members.emoji} </h3>
+              </aside>
               <img className="hoverimage" src={members.image} alt="members images" />
               <aside className="hoverinfo">
-              <h2> Name: {members.name}</h2>
-              <h2> Age: {members.age}</h2>
-              <h2> Role: {members.role} </h2>
-              <h2> Nationality: {members.nationality} </h2>
+              <h2>  {members.name}</h2>
+              <h2> {members.age}</h2>
+              <h2> {members.role} </h2>
+              <h2> {members.nationality} </h2>
               </aside>
             </section>  
         </section>
